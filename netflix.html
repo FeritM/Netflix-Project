@@ -13,15 +13,56 @@
     </h5>
     <form action="">
       <div>
-        <div>
-          <label for="agebox"></label>
-          <span>Name</span>
+        <div class="box1">
+          <label for="namebox">Name</label> <br />
           <input
             type="text "
             name="data"
+            id="namebox"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="box2">
+          <label for="agebox">Age</label> <br />
+          <input
+            type="number"
             id="agebox"
+            name=""
             placeholder="Enter your age"
           />
+        </div>
+        <div>
+          <label for="">Email</label> <br />
+          <input type="email" id="emailbox" placeholder="Enter your email" />
+        </div>
+        <div>
+          <label for="">Content Type</label> <br />
+          <select name="" id="contentbox">
+            <option value="">Series</option>
+            <option value="">x</option>
+            <option value="">y</option>
+            <option value="">z</option>
+          </select>
+        </div>
+        <div>
+          <span>Movie Type</span> <br />
+          <input type="checkbox" name="" id="moviebox" />
+          <label for="">Comedy </label><br />
+          <input type="checkbox" name="" id="moviebox" />
+          <label for=""> Drama </label><br />
+          <input type="checkbox" name="" id="moviebox" />
+          <label for=""> Action </label><br />
+          <input type="checkbox" name="" id="moviebox" />
+          <label for=""> Supernatural </label>
+        </div>
+        <div>
+            <span>Gender</span> <br>
+          <label for="">Male</label> 
+          <input type="radio" name="gender" id="gender1" /> <br>
+          <label for="">Female</label> 
+          <input type="radio" name="gender" id="gender2" /> <br>
+          <label for="">Other</label> 
+          <input type="radio" name="gender" id="gender3" /> <br>
         </div>
       </div>
     </form>
