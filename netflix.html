@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix</title>
+    <link rel="stylesheet" href="netflix.css">
+    
   </head>
   <body>
-    <h1>NET <span>FLİX</span></h1>
+    <h1>NET <span id="span1">FLİX</span></h1>
     <h5>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, minima
       ipsa.
     </h5>
     <form action="">
-      <div>
+      <div class="bigbox">
         <div class="box1">
           <label for="namebox">Name</label> <br />
           <input
@@ -63,6 +65,13 @@
           <label for="">Female</label>  <br>
           <input type="radio" name="gender" id="gender3"  value="Diğer"/> 
           <label for="">Other</label> <br>
+        </div>
+        <div>
+            <label for="message"></label>
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Feed back message"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
         </div>
       </div>
     </form>
